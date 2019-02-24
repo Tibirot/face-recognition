@@ -1,0 +1,15 @@
+You will get an error using Clarifai.DETECT_FACE,  
+it appears to have changed to Clarifai.FACE_DETECT_MO
+(Read more about it here: https://clarifai.com/developer/guide).
+
+app.models
+.predict(
+Clarifai.COLOR_MODEL,
+    // URL
+    "https://samples.clarifai.com/metro-north.jpg"
+)
+.then(function(response) {
+    // do something with responseconsole.log(response);
+    },
+    function(err) {// there was an error}
+);
