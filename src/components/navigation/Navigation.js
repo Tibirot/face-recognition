@@ -1,9 +1,10 @@
 import React from 'react';
+import './Navigation.css'
 
 const Navigation = () => {
     return (
-        <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
-             <p className='f3 link dim black underline pa3 pointer'>Sign Out</p>
+        <nav className='nav-bar pa1 br3 shadow-5' style={{display: 'flex', justifyContent: 'flex-end'}}>
+             <p className='f3 link b dim orange underline pa3 pointer'>Sign Out</p>
         </nav>
     )
 }

@@ -1,3 +1,16 @@
 .Tilt {
   background: linear-gradient(to left, #627d4d 0%,#1f3b08 100%);
+   
+}
+
+.logo-bar {
+  position: absolute;
+  top: 10px; left: 10px;
+}
+
+.logo-img {
+  justify-content: center;
+  align-content: center;
+  width: 96px;
+  height: auto;
 }
