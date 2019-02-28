@@ -78,7 +78,7 @@ class App extends Component {
   }
   
   onButtonSubmit = () => {
-    this.setState({ imageurl: this.state.input });
+    this.setState({ imageUrl: this.state.input });
       fetch('https://gentle-cliffs-48157.herokuapp.com/imageurl', {
         method: 'post',
         headers: { 'Content-Type': 'application/json' },
